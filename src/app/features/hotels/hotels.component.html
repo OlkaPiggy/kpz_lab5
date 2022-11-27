@@ -1,0 +1,21 @@
+<p>hotels works!</p>
+<table>
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Price</th>
+    <th>Type</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let hotel of hotels">
+    <td>{{hotel.id}}</td>
+    <td>{{hotel.name}}</td>
+    <td>{{hotel.address}}</td>
+    <td>{{hotel.price}}</td>
+    <td>{{hotel.type}}</td>
+  </tr>
+  </tbody>
+</table>
